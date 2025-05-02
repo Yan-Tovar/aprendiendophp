@@ -33,5 +33,12 @@
     <a href="t2p24.php">Ejercicio 24 !!No abrir porque borra todos los cursos!!</a><br>
     <a href="t2p25.php">Ejercicio 25</a><br>
     <a href="t2p26.php">Ejercicio 26</a><br>
+    <a href="t2p27.php">Ejercicio 27</a><br>
+    <a href="t2p28.php">Ejercicio 28</a><br>
+    <a href="t2p29.php">Ejercicio 29</a><br>
+    <a href="t2p30.php">Ejercicio 30</a><br>
+    <a href="t2p31.php">Ejercicio 31</a><br>
+    <a href="t2p32.php">Ejercicio 32</a><br>
+    <a href="t2p33.php">Ejercicio 33</a><br>
 </body>
 </html>
