@@ -30,7 +30,7 @@
     <a href="t2p21.php">Ejercicio 21</a><br>
     <a href="t2p22.php">Ejercicio 22</a><br>
     <a href="t2p23.php">Ejercicio 23</a><br>
-    <a href="t2p24.php">Ejercicio 24</a><br>
+    <a href="t2p24.php">Ejercicio 24 !!No abrir porque borra todos los cursos!!</a><br>
     <a href="t2p25.php">Ejercicio 25</a><br>
     <a href="t2p26.php">Ejercicio 26</a><br>
 </body>

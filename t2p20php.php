@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejercicio19</title>
+    <title>Ejercicio20</title>
 </head>
 <body>
 </body>
@@ -15,7 +15,7 @@
     ('','$_REQUEST[nombre]')")
     or die("Problemas en el select".mysqli_error($conexion));
     mysqli_close($conexion);
-    echo "El curso fue dado de alta.";
+    echo "El curso fue agregado correctamente.";
     ?>
 </body>
 </html>
