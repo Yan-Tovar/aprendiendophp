@@ -47,5 +47,11 @@
     <a href="t3p38.php">Ejercicio 38</a><br>
     <a href="t3p39.php">Ejercicio 39</a><br>
     <a href="t3p40.php">Ejercicio 40</a><br>
+    <a href="t3p41.php">Ejercicio 41</a><br>
+    <a href="t3p42.php">Ejercicio 42</a><br>
+    <a href="t3p43.php">Ejercicio 43</a><br>
+    <a href="t3p44.php">Ejercicio 44</a><br>
+    <a href="t3p45.php">Ejercicio 45</a><br>
+    <a href="t3p46.php">Ejercicio 46</a><br>
 </body>
 </html>
