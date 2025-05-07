@@ -3,7 +3,7 @@ session_start();
 ?>
 <html>
 <head>
-<title>Ejercicio36</title>
+<title>Ejercicio37</title>
 </head>
 <body>
 <?php

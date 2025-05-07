@@ -3,14 +3,18 @@ session_start();
 ?>
 <html>
 <head>
-<title>Ejercicio36</title>
+<title>Ejercicio37</title>
 </head>
 <body>
 <?php
-echo "Nombre de usuario recuperado de la variable de sesión:".
-$_SESSION['mail'];
-echo "<br><br>";
-echo "La clave recuperada de la variable de sesión:".$_SESSION['nombre'];
+if(isset($_SESSION['nombre'])){
+    echo "Bienvenido Usuario: ".
+    $_SESSION['nombre'];
+    echo "<br><br>";
+}else{
+    echo "No puedes visitar esta pagina :(";
+}
+
 ?>
 </body>
 </html>
