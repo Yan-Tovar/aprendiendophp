@@ -53,5 +53,6 @@
     <a href="t3p44.php">Ejercicio 44</a><br>
     <a href="t3p45.php">Ejercicio 45</a><br>
     <a href="t3p46.php">Ejercicio 46</a><br>
+    <a href="t4p47.php">Ejercicio 47</a><br>
 </body>
 </html>

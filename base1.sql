@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 03-05-2025 a las 00:44:52
+-- Tiempo de generación: 13-05-2025 a las 04:34:50
 -- Versión del servidor: 10.4.32-MariaDB
--- Versión de PHP: 8.2.12
+-- Versión de PHP: 8.1.25
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -48,6 +48,19 @@ INSERT INTO `alumnos` (`codigo`, `nombre`, `mail`, `codigocurso`) VALUES
 -- --------------------------------------------------------
 
 --
+-- Estructura de tabla para la tabla `articulos`
+--
+
+CREATE TABLE `articulos` (
+  `codigo` int(11) NOT NULL,
+  `descripcion` varchar(50) NOT NULL,
+  `precio` float NOT NULL,
+  `codigorubro` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- --------------------------------------------------------
+
+--
 -- Estructura de tabla para la tabla `cursos`
 --
 
@@ -63,7 +76,21 @@ CREATE TABLE `cursos` (
 INSERT INTO `cursos` (`codigo`, `nombrecurso`) VALUES
 (1, 'sociales'),
 (2, 'ingles'),
-(3, 'matematicas');
+(3, 'matematicas'),
+(4, 'religion'),
+(5, 'etica'),
+(6, 'edufisica');
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `rubros`
+--
+
+CREATE TABLE `rubros` (
+  `codigo` int(11) NOT NULL,
+  `descripcion` varchar(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Índices para tablas volcadas
@@ -76,9 +103,21 @@ ALTER TABLE `alumnos`
   ADD PRIMARY KEY (`codigo`);
 
 --
+-- Indices de la tabla `articulos`
+--
+ALTER TABLE `articulos`
+  ADD PRIMARY KEY (`codigo`);
+
+--
 -- Indices de la tabla `cursos`
 --
 ALTER TABLE `cursos`
+  ADD PRIMARY KEY (`codigo`);
+
+--
+-- Indices de la tabla `rubros`
+--
+ALTER TABLE `rubros`
   ADD PRIMARY KEY (`codigo`);
 
 --
@@ -92,10 +131,22 @@ ALTER TABLE `alumnos`
   MODIFY `codigo` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
+-- AUTO_INCREMENT de la tabla `articulos`
+--
+ALTER TABLE `articulos`
+  MODIFY `codigo` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+
+--
 -- AUTO_INCREMENT de la tabla `cursos`
 --
 ALTER TABLE `cursos`
-  MODIFY `codigo` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `codigo` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+
+--
+-- AUTO_INCREMENT de la tabla `rubros`
+--
+ALTER TABLE `rubros`
+  MODIFY `codigo` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
